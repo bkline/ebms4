@@ -1,3 +1,5 @@
-web/
-vendor/
+/web/core
+/web/sites/*/files
+/vendor
+/.idea
 *~
