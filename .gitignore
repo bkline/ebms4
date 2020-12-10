@@ -1,5 +1,8 @@
 /web/core
 /web/sites/*/files
+/web/sites/simpletest
 /vendor
 /.idea
 *~
+*.bak
+.phpunit.result.cache

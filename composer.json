@@ -18,7 +18,8 @@
         "composer/installers": "^1.9",
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-recommended": "^9.1",
-        "drush/drush": "^10.3"
+        "drush/drush": "^10.3",
+        "phpspec/prophecy-phpunit": "^2"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -86,6 +87,8 @@
         }
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.5"
+        "mikey179/vfsstream": "^1.6",
+        "phpunit/phpunit": "9.4",
+        "symfony/phpunit-bridge": "^5.2"
     }
 }
