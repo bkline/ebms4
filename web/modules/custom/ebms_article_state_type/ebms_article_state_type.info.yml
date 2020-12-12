@@ -1,0 +1,5 @@
+name: EBMS Article State Type
+description: Valid values for states through which articles can progress for each of its topics.
+type: module
+package: EBMS
+core_version_requirement: ^9

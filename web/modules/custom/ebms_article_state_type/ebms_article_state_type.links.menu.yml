@@ -1,0 +1,6 @@
+entity.ebms_article_state_type.collection:
+  title: 'EBMS Article State Type'
+  parent: system.admin_config_system
+  description: 'Configure EBMS article state type'
+  route_name: entity.ebms_article_state_type.collection
+  weight: 100

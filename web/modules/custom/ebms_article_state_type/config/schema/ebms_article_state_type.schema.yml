@@ -1,0 +1,22 @@
+ebms_article_state_type.state.*:
+  type: config_entity
+  label: Article State Type
+  mapping:
+    id:
+      type: string
+      label: ID
+    label:
+      type: label
+      label: Label
+    description:
+      type: string
+      label: Description
+    sequence:
+      type: integer
+      label: Sequence
+    completed:
+      type: boolean
+      label: Completed
+    active:
+      type: boolean
+      label: Active

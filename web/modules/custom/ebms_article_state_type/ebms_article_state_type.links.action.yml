@@ -1,0 +1,5 @@
+entity.ebms_article_state_type.add_form:
+  route_name: 'entity.ebms_article_state_type.add_form'
+  title: 'Add EBMS Article State Type'
+  appears_on:
+    - entity.ebms_article_state_type.collection
