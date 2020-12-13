@@ -1,0 +1,162 @@
+[
+  {
+    "id": "ready_init_review",
+    "label": "Ready for initial review",
+    "description": "Article is associated with a summary topic, typically by a new import or an attempted import of a duplicate.  It is now ready for initial review",
+    "completed": false,
+    "active": false,
+    "sequence": 10
+  },
+  {
+    "id": "reject_journal_title",
+    "label": "Rejected by NOT list",
+    "description": "Article appeared in a \"NOT listed\" journal, rejected without review",
+    "completed": true,
+    "active": false,
+    "sequence": 20
+  },
+  {
+    "id": "reject_init_review",
+    "label": "Rejected in initial review",
+    "description": "Rejected in initial review, before publication to board managers",
+    "completed": true,
+    "active": false,
+    "sequence": 30
+  },
+  {
+    "id": "passed_init_review",
+    "label": "Passed initial review",
+    "description": "Article ready for \"publishing\" for board manager review",
+    "completed": false,
+    "active": false,
+    "sequence": 30
+  },
+  {
+    "id": "published",
+    "label": "Published",
+    "description": "Article \"published\" for board manager review",
+    "completed": false,
+    "active": false,
+    "sequence": 40
+  },
+  {
+    "id": "reject_bm_review",
+    "label": "Rejected by Board Manager",
+    "description": "Board manager rejected article",
+    "completed": true,
+    "active": false,
+    "sequence": 50
+  },
+  {
+    "id": "passed_bm_review",
+    "label": "Passed Board Manager",
+    "description": "Board manager accepted article for further review",
+    "completed": false,
+    "active": false,
+    "sequence": 50
+  },
+  {
+    "id": "reject_full_review",
+    "label": "Rejected after full text review",
+    "description": "Full text examined at OCE, article rejected",
+    "completed": true,
+    "active": false,
+    "sequence": 60
+  },
+  {
+    "id": "passed_full_review",
+    "label": "Passed full text review",
+    "description": "Full text examined at OCE, article approved for board member review",
+    "completed": false,
+    "active": false,
+    "sequence": 60
+  },
+  {
+    "id": "fyi",
+    "label": "Flagged as FYI",
+    "description": "Article is being sent out without being linked to a specific topic",
+    "completed": true,
+    "active": false,
+    "sequence": 60
+  },
+  {
+    "id": "full_end",
+    "label": "No further action",
+    "description": "Decision after board member review is do not discuss.  Do not put on agenda.",
+    "completed": true,
+    "active": false,
+    "sequence": 70
+  },
+  {
+    "id": "not_for_agenda",
+    "label": "Minor changes not for Board review",
+    "description": "Changes may be made to summary but no board meeting required.  Do not put on agenda.",
+    "completed": false,
+    "active": false,
+    "sequence": 70
+  },
+  {
+    "id": "agenda_no_paper_change",
+    "label": "Summary changes for Board review (no paper for discussion)",
+    "description": "Show this on the picklist of articles that can be added to agenda.  Summary changes have been proposed, but no paper exists.",
+    "completed": false,
+    "active": false,
+    "sequence": 70
+  },
+  {
+    "id": "agenda_future_change",
+    "label": "Paper and summary changes for discussion",
+    "description": "Show this on the picklist of articles that can be added to agenda.  Summary changes have been proposed.",
+    "completed": false,
+    "active": false,
+    "sequence": 70
+  },
+  {
+    "id": "agenda_board_discuss",
+    "label": "Paper for Board discussion",
+    "description": "Show this on the picklist of articles that can be added to agenda.  No changes proposed, discuss with Board.",
+    "completed": false,
+    "active": false,
+    "sequence": 70
+  },
+  {
+    "id": "agenda_work_group_discuss",
+    "label": "Paper for Working Group discussion",
+    "description": "Show this on the picklist of articles that can be added to agenda.  No changes proposed, discuss with Working Group.",
+    "completed": false,
+    "active": false,
+    "sequence": 70
+  },
+  {
+    "id": "on_agenda",
+    "label": "On agenda",
+    "description": "Article is on the agenda for an upcoming meeting.",
+    "completed": false,
+    "active": false,
+    "sequence": 80
+  },
+  {
+    "id": "final_board_decision",
+    "label": "Final board decision",
+    "description": "Article was discussed at a board meeting and a decision was reached",
+    "completed": true,
+    "active": false,
+    "sequence": 90
+  },
+  {
+    "id": "on_hold",
+    "label": "On Hold",
+    "description": "Article has been reviewed but should not yet be eligible for inclusion on meeting agendas.",
+    "completed": false,
+    "active": false,
+    "sequence": 70
+  },
+  {
+    "id": "full_review_hold",
+    "label": "Held After Full Text Review",
+    "description": "Article should not yet be eligible for inclusion in review packets.",
+    "completed": false,
+    "active": false,
+    "sequence": 60
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "fid": 1,
+    "uid": 1,
+    "filename": "loe-adult-ped.doc",
+    "uri": "public://loe-adult-ped.doc",
+    "filemime": "application/msword",
+    "filesize": 23552,
+    "created": 1363637093,
+    "changed": 1363637093,
+    "status": 1
+  },
+  {
+    "fid": 2,
+    "uid": 1,
+    "filename": "loe-gen.doc",
+    "uri": "public://loe-gen.doc",
+    "filemime": "application/msword",
+    "filesize": 38400,
+    "created": 1363637093,
+    "changed": 1363637093,
+    "status": 1
+  },
+  {
+    "fid": 3,
+    "uid": 1,
+    "filename": "loe-scr-prev.doc",
+    "uri": "public://loe-scr-prev.doc",
+    "filemime": "application/msword",
+    "filesize": 43520,
+    "created": 1363637093,
+    "changed": 1363637093,
+    "status": 1
+  },
+  {
+    "fid": 4,
+    "uid": 1,
+    "filename": "loe-care.doc",
+    "uri": "public://loe-care.doc",
+    "filemime": "application/msword",
+    "filesize": 26112,
+    "created": 1363637093,
+    "changed": 1363637093,
+    "status": 1
+  },
+  {
+    "fid": 5,
+    "uid": 1,
+    "filename": "loe-cam.doc",
+    "uri": "public://loe-cam.doc",
+    "filemime": "application/msword",
+    "filesize": 26624,
+    "created": 1363637093,
+    "changed": 1363637093,
+    "status": 1
+  }
+]

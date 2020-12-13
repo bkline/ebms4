@@ -1,0 +1,22 @@
+{
+  "1": "ready_init_review",
+  "2": "reject_journal_title",
+  "3": "reject_init_review",
+  "4": "passed_init_review",
+  "5": "published",
+  "6": "reject_bm_review",
+  "7": "passed_bm_review",
+  "8": "reject_full_review",
+  "9": "passed_full_review",
+  "10": "fyi",
+  "11": "full_end",
+  "12": "not_for_agenda",
+  "13": "agenda_no_paper_change",
+  "14": "agenda_future_change",
+  "15": "agenda_board_discuss",
+  "16": "agenda_work_group_discuss",
+  "17": "on_agenda",
+  "18": "final_board_decision",
+  "20": "on_hold",
+  "21": "full_review_hold"
+}
