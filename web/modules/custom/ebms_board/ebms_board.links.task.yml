@@ -1,0 +1,15 @@
+entity.ebms_board.canonical:
+  route_name: entity.ebms_board.canonical
+  base_route: entity.ebms_board.canonical
+  title: View
+
+entity.ebms_board.edit_form:
+  route_name: entity.ebms_board.edit_form
+  base_route: entity.ebms_board.canonical
+  title: Edit
+
+entity.ebms_board.delete_form:
+  route_name: entity.ebms_board.delete_form
+  base_route: entity.ebms_board.canonical
+  title: Delete
+  weight: 10
