@@ -30,13 +30,13 @@ class StateTypeTest extends KernelTestBase {
   /**
    * Test saving an article state type.
    */
-  public function testStateType {
+  public function testStateType() {
     $this->typedConfig = \Drupal::service('config.typed');
     $id = 'test_machine_id';
     $state = ArticleStateType::create([
       'id' => $id,
       'label' => 'Display Name',
-      'description' => 'Quo usque tandem abutere Catalina patientium nostrum',
+      'description' => 'Quo usque tandem abutere Catalina patientia nostra',
       'completed' => true,
       'active' => true,
       'sequence' => 10,
@@ -46,4 +46,5 @@ class StateTypeTest extends KernelTestBase {
     $this->assertEqual($config->get('id'), $id);
     $this->assertConfigSchema($this->typedConfig, $config->getName(), $config->get());
   }
+
 }
