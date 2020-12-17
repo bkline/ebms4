@@ -22,6 +22,7 @@ class ArticleStateTypeForm extends EntityForm {
     $form['id'] = [
       '#type' => 'machine_name',
       '#default_value' => $this->entity->id(),
+      '#description' => $this->t('Machine id for this state'),
       '#machine_name' => [
         'exists' => '\Drupal\ebms_article_state_type\Entity\ArticleStateType::load',
       ],
@@ -33,7 +34,7 @@ class ArticleStateTypeForm extends EntityForm {
       '#title' => $this->t('Label'),
       '#maxlength' => 64,
       '#default_value' => $this->entity->label(),
-      '#description' => $this->t('Label for the topic group.'),
+      '#description' => $this->t('Display name for this state.'),
       '#required' => TRUE,
     ];
 

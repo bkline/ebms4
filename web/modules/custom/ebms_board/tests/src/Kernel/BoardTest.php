@@ -50,7 +50,7 @@ class BoardTest extends KernelTestBase {
     $this->assertNotEmpty($boards);
     $this->assertCount(1, $boards);
     foreach ($boards as $board) {
-      $this->assertEqual($board->getName(), 'Test Board');
+      $this->assertEquals($board->getName(), 'Test Board');
     }
   }
 

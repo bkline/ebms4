@@ -43,7 +43,7 @@ class StateTypeTest extends KernelTestBase {
     ]);
     $state->save();
     $config = $this->config("ebms_article_state_type.state.$id");
-    $this->assertEqual($config->get('id'), $id);
+    $this->assertEquals($config->get('id'), $id);
     $this->assertConfigSchema($this->typedConfig, $config->getName(), $config->get());
   }
 
