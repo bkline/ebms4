@@ -1,0 +1,72 @@
+[
+  {
+    "id": "q_search",
+    "label": "Questionable search",
+    "description": "This article was imported as a result of a search, but the article appears to be out of scope and the search criteria may have been too broad.",
+    "topic_required": false,
+    "active": true
+  },
+  {
+    "id": "q_init_review",
+    "label": "Borderline initial review",
+    "description": "This was examined in initial review but no judgment made.  It was a borderline case.  Look at it again later.",
+    "topic_required": false,
+    "active": true
+  },
+  {
+    "id": "q_bm_review",
+    "label": "Borderline board manager review",
+    "description": "This was examined by a board manager but no judgment made.  It was a borderline case.  Look at it again later.  A specific topic must be identified.",
+    "topic_required": true,
+    "active": true
+  },
+  {
+    "id": "i_fasttrack",
+    "label": "Import fast track",
+    "description": "The article was imported as part of a fast track import process.  A specific topic must be identified.",
+    "topic_required": true,
+    "active": true
+  },
+  {
+    "id": "i_specialsearch",
+    "label": "Import special search",
+    "description": "The article was imported as part of a special search import process.  A specific topic must be identified.",
+    "topic_required": true,
+    "active": true
+  },
+  {
+    "id": "conversion_note",
+    "label": "Legacy conversion note",
+    "description": "Information about the article recorded during conversion from the legacy CiteMS",
+    "topic_required": false,
+    "active": true
+  },
+  {
+    "id": "manager_added",
+    "label": "Added by Board Manager",
+    "description": "Used when board managers assign a new board and topic to an article",
+    "topic_required": true,
+    "active": true
+  },
+  {
+    "id": "i_core_journals",
+    "label": "Core journals search",
+    "description": "The article was imported as part of a core journals search. A specific topic must be identified.",
+    "topic_required": true,
+    "active": true
+  },
+  {
+    "id": "not_reviewed",
+    "label": "Not reviewed",
+    "description": "The article has been waiting for review with no activity for at least two years.",
+    "topic_required": true,
+    "active": true
+  },
+  {
+    "id": "high_priority",
+    "label": "High priority",
+    "description": "The article needs expedited review by the board (for example, because it has been provided by the EIC or another channel or in the press).",
+    "topic_required": true,
+    "active": true
+  }
+]

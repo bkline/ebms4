@@ -1,0 +1,5 @@
+name: EBMS Article Tag Values
+description: Control values for tagging articles
+type: module
+package: EBMS
+core_version_requirement: ^9

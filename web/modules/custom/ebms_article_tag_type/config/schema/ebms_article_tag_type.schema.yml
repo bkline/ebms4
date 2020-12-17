@@ -1,0 +1,19 @@
+ebms_article_tag_type.tag.*:
+  type: config_entity
+  label: Article Tag Type
+  mapping:
+    id:
+      type: string
+      label: ID
+    label:
+      type: label
+      label: Label
+    description:
+      type: string
+      label: Description
+    topic_required:
+      type: boolean
+      label: Topic required
+    active:
+      type: boolean
+      label: Active

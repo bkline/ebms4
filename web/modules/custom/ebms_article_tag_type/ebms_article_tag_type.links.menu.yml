@@ -1,0 +1,6 @@
+entity.ebms_article_tag_type.collection:
+  title: 'EBMS Article Tag Value'
+  parent: system.admin_config_system
+  description: 'Configure EBMS article tag value'
+  route_name: entity.ebms_article_tag_type.collection
+  weight: 100

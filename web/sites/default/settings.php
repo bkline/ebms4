@@ -790,3 +790,4 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_50fYTQ1chltFVHm1Kt6Y2JU7ih9XBbLtcsG513vgFQGW5F7YaQGJhH4nPyNV_PWsZsA7HjlsRw/sync';
+$settings['trusted_host_patterns'] = ['^ebms.localhost$'];
