@@ -1,0 +1,13 @@
+ebms_cycle.cycle.*:
+  type: config_entity
+  label: EBMS import/review cycle
+  mapping:
+    id:
+      type: string
+      label: ID
+    label:
+      type: label
+      label: Label
+    start:
+      type: timestamp
+      label: Start Date

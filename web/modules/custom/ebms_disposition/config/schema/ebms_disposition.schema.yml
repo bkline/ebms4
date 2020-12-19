@@ -1,0 +1,16 @@
+ebms_disposition.disposition.*:
+  type: config_entity
+  label: Disposition Value
+  mapping:
+    id:
+      type: string
+      label: ID
+    label:
+      type: label
+      label: Label
+    instructions:
+      type: string
+      label: Instructions
+    sequence:
+      type: integer
+      label: Sequence

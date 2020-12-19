@@ -1,0 +1,5 @@
+name: EBMS Disposition
+description: Valid values for article assessment by reviewers.
+type: module
+package: EBMS
+core_version_requirement: ^9

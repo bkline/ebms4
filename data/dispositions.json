@@ -1,0 +1,26 @@
+[
+  {
+    "id": "no_changes",
+    "label": "Warrants no changes to the summary",
+    "instructions": null,
+    "sequence": 1
+  },
+  {
+    "id": "citation",
+    "label": "Deserves citation in the summary",
+    "instructions": "indicate placement in the summary document",
+    "sequence": 2
+  },
+  {
+    "id": "revision",
+    "label": "Merits revision of the text",
+    "instructions": "indicate changes in the summary document",
+    "sequence": 3
+  },
+  {
+    "id": "discussion",
+    "label": "Merits discussion",
+    "instructions": null,
+    "sequence": 4
+  }
+]

@@ -1,0 +1,5 @@
+name: EBMS Cycle
+description: Monthly import/review cycle.
+type: module
+package: EBMS
+core_version_requirement: ^9

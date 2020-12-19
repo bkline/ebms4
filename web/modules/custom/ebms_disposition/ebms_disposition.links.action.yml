@@ -1,0 +1,5 @@
+entity.ebms_disposition.add_form:
+  route_name: 'entity.ebms_disposition.add_form'
+  title: 'Add EBMS Disposition Value'
+  appears_on:
+    - entity.ebms_disposition.collection

@@ -6,9 +6,7 @@ use Drupal\Core\Entity\EntityForm;
 use Drupal\Core\Form\FormStateInterface;
 
 /**
- * Topic Group form.
- *
- * @property \Drupal\ebms_topic_group\EbmsTopicGroupInterface $entity
+ * Article state value form.
  */
 class ArticleStateTypeForm extends EntityForm {
 
@@ -47,7 +45,9 @@ class ArticleStateTypeForm extends EntityForm {
     ];
 
     $form['sequence'] = [
-      '#type' => 'integer',
+      '#type' => 'number',
+      '#min' => 10,
+      '#step' => 10,
       '#title' => $this->t('Sequence'),
       '#description' => $this->t('Order in the state workflow'),
       '#default_value' => $this->entity->get('sequence'),
