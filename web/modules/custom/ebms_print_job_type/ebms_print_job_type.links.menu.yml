@@ -1,0 +1,5 @@
+entity.ebms_print_job_type.collection:
+  title: 'Print Job Types'
+  parent: ebms_config.admin_config_ebms
+  description: 'Configure print job types'
+  route_name: entity.ebms_print_job_type.collection

@@ -1,0 +1,7 @@
+name: EBMS Print Job Type
+description: Valid values for print job types.
+type: module
+package: EBMS
+core_version_requirement: ^9
+dependencies:
+  - ebms_config

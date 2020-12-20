@@ -1,0 +1,22 @@
+[
+  {
+    "id": "board",
+    "label": "Board",
+    "description": "Job run for all board members that receive printouts on one board"
+  },
+  {
+    "id": "meeting",
+    "label": "Meeting",
+    "description": "Printing all documents for a board meeting"
+  },
+  {
+    "id": "package",
+    "label": "Package",
+    "description": "Printing all packets (one package) for one user on one board"
+  },
+  {
+    "id": "packet",
+    "label": "Packet",
+    "description": "Printing a single packet for a user"
+  }
+]

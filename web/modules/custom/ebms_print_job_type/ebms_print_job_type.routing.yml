@@ -1,0 +1,31 @@
+entity.ebms_print_job_type.collection:
+  path: '/admin/config/ebms/ebms_print_job_type'
+  defaults:
+    _entity_list: 'ebms_print_job_type'
+    _title: 'Print Job Types'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.ebms_print_job_type.add_form:
+  path: '/admin/config/ebms/ebms_print_job_type/add'
+  defaults:
+    _entity_form: 'ebms_print_job_type.add'
+    _title: 'Add Print Job Type'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.ebms_print_job_type.edit_form:
+  path: '/admin/config/ebms/ebms_print_job_type/{ebms_print_job_type}'
+  defaults:
+    _entity_form: 'ebms_print_job_type.edit'
+    _title: 'Edit Print Job Type'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.ebms_print_job_type.delete_form:
+  path: '/admin/config/ebms/ebms_print_job_type/{ebms_print_job_type}/delete'
+  defaults:
+    _entity_form: 'ebms_print_job_type.delete'
+    _title: 'Delete Print Job Type'
+  requirements:
+    _permission: 'administer site configuration'
