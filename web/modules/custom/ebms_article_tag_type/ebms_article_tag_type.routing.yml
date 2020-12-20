@@ -1,31 +1,31 @@
 entity.ebms_article_tag_type.collection:
-  path: '/admin/config/system/ebms_article_tag_type'
+  path: '/admin/config/ebms/ebms_article_tag_type'
   defaults:
     _entity_list: 'ebms_article_tag_type'
-    _title: 'EBMS Article Tag Values'
+    _title: 'Article Tag Values'
   requirements:
     _permission: 'administer site configuration'
 
 entity.ebms_article_tag_type.add_form:
-  path: '/admin/config/system/ebms_article_tag_type/add'
+  path: '/admin/config/ebms/ebms_article_tag_type/add'
   defaults:
     _entity_form: 'ebms_article_tag_type.add'
-    _title: 'Add EBMS Article Tag Value'
+    _title: 'Add Article Tag Value'
   requirements:
     _permission: 'administer site configuration'
 
 entity.ebms_article_tag_type.edit_form:
-  path: '/admin/config/system/ebms_article_tag_type/{ebms_article_tag_type}'
+  path: '/admin/config/ebms/ebms_article_tag_type/{ebms_article_tag_type}'
   defaults:
     _entity_form: 'ebms_article_tag_type.edit'
-    _title: 'Edit EBMS Article Tag Value'
+    _title: 'Edit Article Tag Value'
   requirements:
     _permission: 'administer site configuration'
 
 entity.ebms_article_tag_type.delete_form:
-  path: '/admin/config/system/ebms_article_tag_type/{ebms_article_tag_type}/delete'
+  path: '/admin/config/ebms/ebms_article_tag_type/{ebms_article_tag_type}/delete'
   defaults:
     _entity_form: 'ebms_article_tag_type.delete'
-    _title: 'Delete EBMS Article Tag Value'
+    _title: 'Delete Article Tag Value'
   requirements:
     _permission: 'administer site configuration'

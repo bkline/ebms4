@@ -110,7 +110,7 @@ class ArticleStateType extends ConfigEntityBase {
    */
   public static function sort(ConfigEntityInterface $a, ConfigEntityInterface $b) {
     if ($a->sequence === $b->sequence) {
-      return $a->label < $b->label ? -1 : 1;
+      return strcmp($a->label, $b->label);
     }
     return $a->sequence < $b->sequence ? -1 : 1;
   }

@@ -1,0 +1,8 @@
+ebms_config.admin_config_ebms:
+  path: '/admin/config/ebms'
+  defaults:
+    _controller:
+      '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'EBMS'
+  requirements:
+    _permission: 'access administration pages'

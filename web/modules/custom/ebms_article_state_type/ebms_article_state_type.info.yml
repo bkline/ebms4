@@ -3,3 +3,5 @@ description: Valid values for states through which articles can progress for eac
 type: module
 package: EBMS
 core_version_requirement: ^9
+dependencies:
+  - ebms_config

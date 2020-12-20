@@ -1,6 +1,5 @@
 entity.ebms_disposition.collection:
-  title: 'EBMS Disposition Value'
-  parent: system.admin_config_system
-  description: 'Configure EBMS disposition values'
+  title: 'Disposition Values'
+  parent: ebms_config.admin_config_ebms
+  description: 'Configure disposition values'
   route_name: entity.ebms_disposition.collection
-  weight: 110

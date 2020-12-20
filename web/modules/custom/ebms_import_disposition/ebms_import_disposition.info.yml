@@ -1,5 +1,5 @@
-name: EBMS Article Tag Values
-description: Control values for tagging articles
+name: EBMS Import Disposition
+description: Valid values for import dispositions.
 type: module
 package: EBMS
 core_version_requirement: ^9

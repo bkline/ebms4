@@ -1,0 +1,5 @@
+name: EBMS Configuration
+description: Manage control values for the EBMS.
+type: module
+package: EBMS
+core_version_requirement: ^9

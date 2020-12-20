@@ -1,31 +1,31 @@
 entity.ebms_article_state_type.collection:
-  path: '/admin/config/system/ebms_article_state_type'
+  path: '/admin/config/ebms/ebms_article_state_type'
   defaults:
     _entity_list: 'ebms_article_state_type'
-    _title: 'EBMS Article State Types'
+    _title: 'Article State Types'
   requirements:
     _permission: 'administer site configuration'
 
 entity.ebms_article_state_type.add_form:
-  path: '/admin/config/system/ebms_article_state_type/add'
+  path: '/admin/config/ebms/ebms_article_state_type/add'
   defaults:
     _entity_form: 'ebms_article_state_type.add'
-    _title: 'Add EBMS Article State Type'
+    _title: 'Add Article State Type'
   requirements:
     _permission: 'administer site configuration'
 
 entity.ebms_article_state_type.edit_form:
-  path: '/admin/config/system/ebms_article_state_type/{ebms_article_state_type}'
+  path: '/admin/config/ebms/ebms_article_state_type/{ebms_article_state_type}'
   defaults:
     _entity_form: 'ebms_article_state_type.edit'
-    _title: 'Edit EBMS Article State Type'
+    _title: 'Edit Article State Type'
   requirements:
     _permission: 'administer site configuration'
 
 entity.ebms_article_state_type.delete_form:
-  path: '/admin/config/system/ebms_article_state_type/{ebms_article_state_type}/delete'
+  path: '/admin/config/ebms/ebms_article_state_type/{ebms_article_state_type}/delete'
   defaults:
     _entity_form: 'ebms_article_state_type.delete'
-    _title: 'Delete EBMS Article State Type'
+    _title: 'Delete Article State Type'
   requirements:
     _permission: 'administer site configuration'

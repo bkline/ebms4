@@ -1,0 +1,16 @@
+ebms_import_disposition.disposition.*:
+  type: config_entity
+  label: Import Import Disposition Value
+  mapping:
+    id:
+      type: string
+      label: ID
+    label:
+      type: label
+      label: Label
+    description:
+      type: string
+      label: Description
+    active:
+      type: boolean
+      label: Active

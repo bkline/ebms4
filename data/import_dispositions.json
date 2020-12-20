@@ -1,0 +1,44 @@
+[
+  {
+    "id": "imported",
+    "label": "Imported",
+    "description": "First time import into the database",
+    "active": true
+  },
+  {
+    "id": "review_ready",
+    "label": "Ready for review",
+    "description": "Imported as ready for review",
+    "active": true
+  },
+  {
+    "id": "not_listed",
+    "label": "NOT listed",
+    "description": "Imported but automatically rejected because the journal was NOT listed",
+    "active": true
+  },
+  {
+    "id": "duplicate",
+    "label": "Duplicate, not imported",
+    "description": "Article already in database with same topic.  Not re-imported.",
+    "active": true
+  },
+  {
+    "id": "topic_added",
+    "label": "Summary topic added",
+    "description": "Article already in database.  New summary topic added.",
+    "active": true
+  },
+  {
+    "id": "replaced",
+    "label": "Replaced",
+    "description": "Article record replaced from updated, newly downloaded, source record",
+    "active": true
+  },
+  {
+    "id": "error",
+    "label": "Error",
+    "description": "An error occurred in locating or parsing the record.  Not imported.",
+    "active": true
+  }
+]
