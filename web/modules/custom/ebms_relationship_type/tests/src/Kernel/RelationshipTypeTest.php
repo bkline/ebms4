@@ -1,24 +1,24 @@
 <?php
 
-namespace Drupal\Tests\ebms_print_status\Kernel;
+namespace Drupal\Tests\ebms_relationship_type\Kernel;
 
 use Drupal\KernelTests\KernelTestBase;
 use Drupal\Tests\SchemaCheckTestTrait;
-use Drupal\ebms_print_status\Entity\PrintStatus;
+use Drupal\ebms_relationship_type\Entity\RelationshipType;
 
 /**
- * Test the print status entity type.
+ * Test the relationship type entity type.
  *
  * @group ebms
  */
-class PrintStatusTest extends KernelTestBase {
+class RelationshipTypeTest extends KernelTestBase {
 
   use SchemaCheckTestTrait;
 
   /**
    * {@inheritdoc}
    */
-  protected static $modules = ['ebms_print_status'];
+  protected static $modules = ['ebms_relationship_type'];
 
   /**
    * The typed config manager.
@@ -28,18 +28,19 @@ class PrintStatusTest extends KernelTestBase {
   protected $typedConfig;
 
   /**
-   * Test saving a print status.
+   * Test saving a relationship type.
    */
-  public function testPrintStatus() {
+  public function testRelationshipType() {
     $this->typedConfig = \Drupal::service('config.typed');
     $id = 'test_machine_id';
-    $job_type = PrintStatus::create([
+    $type = RelationshipType::create([
       'id' => $id,
       'label' => 'Display Name',
-      'description' => 'Printing went swimmingly',
+      'description' => 'Very cozy',
+      'active' => TRUE,
     ]);
-    $job_type->save();
-    $config = $this->config("ebms_print_status.status.$id");
+    $type->save();
+    $config = $this->config("ebms_relationship_type.type.$id");
     $this->assertEquals($config->get('id'), $id);
     $this->assertConfigSchema($this->typedConfig, $config->getName(), $config->get());
   }

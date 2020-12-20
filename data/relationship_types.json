@@ -1,0 +1,20 @@
+[
+  {
+    "id": "duplicate",
+    "label": "Duplicate",
+    "description": "This article has a duplicate record (e.g., the PMID has changed).",
+    "active": true
+  },
+  {
+    "id": "article_editorial",
+    "label": "Article/Editorial",
+    "description": "This article (or editorial) has a related editorial (or article).",
+    "active": true
+  },
+  {
+    "id": "other",
+    "label": "Other",
+    "description": "This article is related in some other way to another article.",
+    "active": true
+  }
+]

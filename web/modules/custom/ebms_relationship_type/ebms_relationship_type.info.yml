@@ -1,0 +1,7 @@
+name: EBMS Article Relationship Type
+description: Valid values for article relationship types.
+type: module
+package: EBMS
+core_version_requirement: ^9
+dependencies:
+  - ebms_config

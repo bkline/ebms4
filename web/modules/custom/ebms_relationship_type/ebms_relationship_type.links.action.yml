@@ -1,0 +1,5 @@
+entity.ebms_relationship_type.add_form:
+  route_name: 'entity.ebms_relationship_type.add_form'
+  title: 'Add EBMS Article Relationship Type'
+  appears_on:
+    - entity.ebms_relationship_type.collection

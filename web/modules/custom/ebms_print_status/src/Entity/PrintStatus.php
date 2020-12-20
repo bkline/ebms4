@@ -5,7 +5,7 @@ namespace Drupal\ebms_print_status\Entity;
 use Drupal\Core\Config\Entity\ConfigEntityBase;
 
 /**
- * Defines the EBMS Print Status entity.
+ * Defines the EBMS print status entity.
  *
  * @ingroup ebms
  *

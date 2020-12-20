@@ -1,0 +1,31 @@
+entity.ebms_relationship_type.collection:
+  path: '/admin/config/ebms/ebms_relationship_type'
+  defaults:
+    _entity_list: 'ebms_relationship_type'
+    _title: 'Article Relationship Types'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.ebms_relationship_type.add_form:
+  path: '/admin/config/ebms/ebms_relationship_type/add'
+  defaults:
+    _entity_form: 'ebms_relationship_type.add'
+    _title: 'Add Article Relationship Type'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.ebms_relationship_type.edit_form:
+  path: '/admin/config/ebms/ebms_relationship_type/{ebms_relationship_type}'
+  defaults:
+    _entity_form: 'ebms_relationship_type.edit'
+    _title: 'Edit Article Relationship Type'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.ebms_relationship_type.delete_form:
+  path: '/admin/config/ebms/ebms_relationship_type/{ebms_relationship_type}/delete'
+  defaults:
+    _entity_form: 'ebms_relationship_type.delete'
+    _title: 'Delete Article Relationship Type'
+  requirements:
+    _permission: 'administer site configuration'

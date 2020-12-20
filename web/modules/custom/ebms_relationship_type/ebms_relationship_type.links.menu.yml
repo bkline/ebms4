@@ -1,0 +1,5 @@
+entity.ebms_relationship_type.collection:
+  title: 'Article Relationship Types'
+  parent: ebms_config.admin_config_ebms
+  description: 'Configure article relationship types'
+  route_name: entity.ebms_relationship_type.collection

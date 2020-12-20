@@ -1,0 +1,16 @@
+ebms_relationship_type.type.*:
+  type: config_entity
+  label: Article Relationship Type
+  mapping:
+    id:
+      type: string
+      label: ID
+    label:
+      type: label
+      label: Label
+    description:
+      type: string
+      label: Description
+    active:
+      type: boolean
+      label: Active
