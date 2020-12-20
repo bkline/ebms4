@@ -1,0 +1,13 @@
+ebms_print_status.status.*:
+  type: config_entity
+  label: Print Status
+  mapping:
+    id:
+      type: string
+      label: ID
+    label:
+      type: label
+      label: Label
+    description:
+      type: string
+      label: Description

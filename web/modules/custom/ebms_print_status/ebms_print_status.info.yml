@@ -1,0 +1,7 @@
+name: EBMS Print Status
+description: Valid values for print statuses.
+type: module
+package: EBMS
+core_version_requirement: ^9
+dependencies:
+  - ebms_config

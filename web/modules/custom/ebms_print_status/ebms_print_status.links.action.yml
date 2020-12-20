@@ -1,0 +1,5 @@
+entity.ebms_print_status.add_form:
+  route_name: 'entity.ebms_print_status.add_form'
+  title: 'Add Print Status'
+  appears_on:
+    - entity.ebms_print_status.collection

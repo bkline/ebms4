@@ -1,0 +1,22 @@
+[
+  {
+    "id": "failure",
+    "label": "Failure",
+    "description": "Job failed.  May be more info in comment"
+  },
+  {
+    "id": "in_process",
+    "label": "In Process",
+    "description": "Job started, not yet reached normal finish"
+  },
+  {
+    "id": "queued",
+    "label": "Queued",
+    "description": "Job parameters entered, job is ready to run"
+  },
+  {
+    "id": "success",
+    "label": "Success",
+    "description": "Job completed successfully"
+  }
+]

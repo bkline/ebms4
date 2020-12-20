@@ -1,6 +1,7 @@
 /dross
 /web/core
 /web/sites/*/files
+/web/sites/*/sync
 /web/sites/simpletest
 /vendor
 /.idea
