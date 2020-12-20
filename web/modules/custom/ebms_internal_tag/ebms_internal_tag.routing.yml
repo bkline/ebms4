@@ -1,0 +1,31 @@
+entity.ebms_internal_tag.collection:
+  path: '/admin/config/ebms/ebms_internal_tag'
+  defaults:
+    _entity_list: 'ebms_internal_tag'
+    _title: 'Internal Tag Values'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.ebms_internal_tag.add_form:
+  path: '/admin/config/ebms/ebms_internal_tag/add'
+  defaults:
+    _entity_form: 'ebms_internal_tag.add'
+    _title: 'Add Internal Tag Value'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.ebms_internal_tag.edit_form:
+  path: '/admin/config/ebms/ebms_internal_tag/{ebms_internal_tag}'
+  defaults:
+    _entity_form: 'ebms_internal_tag.edit'
+    _title: 'Edit Internal Tag Value'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.ebms_internal_tag.delete_form:
+  path: '/admin/config/ebms/ebms_internal_tag/{ebms_internal_tag}/delete'
+  defaults:
+    _entity_form: 'ebms_internal_tag.delete'
+    _title: 'Delete Internal Tag Value'
+  requirements:
+    _permission: 'administer site configuration'

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "pdq",
+    "label": "PDQ",
+    "active": true
+  },
+  {
+    "id": "caregivers",
+    "label": "Caregivers",
+    "active": true
+  },
+  {
+    "id": "best_practices",
+    "label": "Best Practices",
+    "active": true
+  },
+  {
+    "id": "health_literacy",
+    "label": "Health Literacy",
+    "active": true
+  },
+  {
+    "id": "cancer_risk_communication",
+    "label": "Cancer Risk Communication",
+    "active": true
+  },
+  {
+    "id": "seo",
+    "label": "SEO",
+    "active": true
+  },
+  {
+    "id": "shared_decision_making",
+    "label": "Shared Decision Making",
+    "active": true
+  },
+  {
+    "id": "cancer_screening_interventions",
+    "label": "Cancer Screening Interventions",
+    "active": true
+  },
+  {
+    "id": "health_information_communication",
+    "label": "Health Information Communication",
+    "active": true
+  },
+  {
+    "id": "ebms_testing",
+    "label": "EBMS Testing",
+    "active": true
+  },
+  {
+    "id": "in_the_news",
+    "label": "In The News",
+    "active": true
+  }
+]

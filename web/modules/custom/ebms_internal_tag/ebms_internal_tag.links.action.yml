@@ -1,0 +1,5 @@
+entity.ebms_internal_tag.add_form:
+  route_name: 'entity.ebms_internal_tag.add_form'
+  title: 'Add Internal Tag Value'
+  appears_on:
+    - entity.ebms_internal_tag.collection

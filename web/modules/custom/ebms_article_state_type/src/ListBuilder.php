@@ -6,7 +6,7 @@ use Drupal\Core\Config\Entity\ConfigEntityListBuilder;
 use Drupal\Core\Entity\EntityInterface;
 
 /**
- * Provides a list controller for the ebms article state types.
+ * Provides a list controller for the EBMS article state types.
  *
  * Overriding the load() method doesn't work because Drupal
  * support for multiple-key sort for entity queries is broken.

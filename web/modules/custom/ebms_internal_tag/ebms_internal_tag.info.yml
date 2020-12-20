@@ -1,0 +1,7 @@
+name: EBMS Internal Tag
+description: Valid values for tagging internal articles.
+type: module
+package: EBMS
+core_version_requirement: ^9
+dependencies:
+  - ebms_config

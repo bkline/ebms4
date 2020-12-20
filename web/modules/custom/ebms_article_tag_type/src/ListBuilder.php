@@ -6,7 +6,7 @@ use Drupal\Core\Config\Entity\ConfigEntityListBuilder;
 use Drupal\Core\Entity\EntityInterface;
 
 /**
- * Provides a list controller for the ebms article tag values.
+ * Provides a list controller for the EBMS article tag values.
  */
 class ListBuilder extends ConfigEntityListBuilder {
 

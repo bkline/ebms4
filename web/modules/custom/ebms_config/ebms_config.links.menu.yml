@@ -2,4 +2,4 @@ ebms_config.admin_config_ebms:
   route_name: ebms_config.admin_config_ebms
   parent: system.admin_config
   title: EBMS
-  weight: 200
+  weight: -100

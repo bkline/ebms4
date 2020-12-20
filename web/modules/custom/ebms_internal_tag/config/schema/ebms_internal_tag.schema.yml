@@ -1,6 +1,6 @@
-ebms_import_disposition.disposition.*:
+ebms_internal_tag.tag.*:
   type: config_entity
-  label: Import Disposition Value
+  label: Internal Tag Value
   mapping:
     id:
       type: string
@@ -8,9 +8,6 @@ ebms_import_disposition.disposition.*:
     label:
       type: label
       label: Label
-    description:
-      type: string
-      label: Description
     active:
       type: boolean
       label: Active

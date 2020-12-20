@@ -6,7 +6,7 @@ use Drupal\Core\Config\Entity\ConfigEntityListBuilder;
 use Drupal\Core\Entity\EntityInterface;
 
 /**
- * Provides a list controller for the ebms review disposition values.
+ * Provides a list controller for the EBMS review disposition values.
  */
 class ListBuilder extends ConfigEntityListBuilder {
 

@@ -12,8 +12,8 @@ use Drupal\Core\Config\Entity\ConfigEntityInterface;
  *
  * @ConfigEntityType(
  *   id = "ebms_import_disposition",
- *   label = @Translation("EBMS Import Import Disposition Value"),
- *   label_collection = @Translation("EBMS Import Import Disposition Values"),
+ *   label = @Translation("EBMS Import Disposition Value"),
+ *   label_collection = @Translation("EBMS Import Disposition Values"),
  *   label_singular = @Translation("disposition"),
  *   label_plural = @Translation("dispositions"),
  *   label_count = @PluralTranslation(
