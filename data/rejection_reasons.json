@@ -1,0 +1,114 @@
+[
+  {
+    "id": "already_cited",
+    "label": "Already cited in the PDQ summary",
+    "sequence": 1,
+    "extra_info": null,
+    "active": false
+  },
+  {
+    "id": "relevance",
+    "label": "Not relevant to the PDQ summary topic",
+    "sequence": 2,
+    "extra_info": null,
+    "active": true
+  },
+  {
+    "id": "importance",
+    "label": "Findings not clinically important",
+    "sequence": 3,
+    "extra_info": null,
+    "active": true
+  },
+  {
+    "id": "preliminary",
+    "label": "Preliminary findings; need confirmation",
+    "sequence": 4,
+    "extra_info": null,
+    "active": true
+  },
+  {
+    "id": "nothing_new",
+    "label": "Provides no new information/novel findings",
+    "sequence": 5,
+    "extra_info": null,
+    "active": true
+  },
+  {
+    "id": "primary_data",
+    "label": "Review/expert opinion/commentary",
+    "sequence": 6,
+    "extra_info": "no new primary data",
+    "active": true
+  },
+  {
+    "id": "study_population",
+    "label": "Inadequate study population",
+    "sequence": 7,
+    "extra_info": "small number of patients; underpowered study; accrual target not met",
+    "active": true
+  },
+  {
+    "id": "followup",
+    "label": "Inadequate follow-up",
+    "sequence": 8,
+    "extra_info": null,
+    "active": true
+  },
+  {
+    "id": "subgroup_analyses",
+    "label": "Inappropriate interpretation of subgroup analyses",
+    "sequence": 9,
+    "extra_info": null,
+    "active": false
+  },
+  {
+    "id": "statistical_analysis",
+    "label": "Inappropriate statistical analysis",
+    "sequence": 10,
+    "extra_info": "incorrect tests; lack of intent-to-treat analysis",
+    "active": false
+  },
+  {
+    "id": "study_design",
+    "label": "Inappropriate study design or analyses",
+    "sequence": 11,
+    "extra_info": null,
+    "active": true
+  },
+  {
+    "id": "outcome_data",
+    "label": "Missing/incomplete outcome data; major protocol deviations",
+    "sequence": 12,
+    "extra_info": null,
+    "active": false
+  },
+  {
+    "id": "randomization",
+    "label": "Randomized trial with flawed or insufficiently described randomization process",
+    "sequence": 13,
+    "extra_info": null,
+    "active": false
+  },
+  {
+    "id": "unvalidated",
+    "label": "Unvalidated outcome measure(s) used",
+    "sequence": 14,
+    "extra_info": "e.g., unvalidated surrogate endpoint[s]",
+    "active": false
+  },
+  {
+    "id": "other",
+    "label": "Other",
+    "sequence": 16,
+    "extra_info": "specify reason(s) in the Comments field",
+    "active": true
+  },
+  {
+    "id": "conflict_of_interest",
+    "label": "Conflict of interest",
+    "sequence": 15,
+    "extra_info": "e.g., article author, competing financial, commercial, or professional interests",
+    "active": true
+  }
+]

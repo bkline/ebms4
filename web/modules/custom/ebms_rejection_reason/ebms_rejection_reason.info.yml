@@ -1,0 +1,7 @@
+name: EBMS Rejection Reasons
+description: Valid values for justification of decisions that reviewed articles are not useful for altering the PDQ summaries.
+type: module
+package: EBMS
+core_version_requirement: ^9
+dependencies:
+  - ebms_config

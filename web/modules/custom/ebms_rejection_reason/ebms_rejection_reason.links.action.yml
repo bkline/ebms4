@@ -1,0 +1,5 @@
+entity.ebms_rejection_reason.add_form:
+  route_name: 'entity.ebms_rejection_reason.add_form'
+  title: 'Add EBMS Rejection Reason'
+  appears_on:
+    - entity.ebms_rejection_reason.collection

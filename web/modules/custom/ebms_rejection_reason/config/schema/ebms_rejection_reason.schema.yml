@@ -1,0 +1,19 @@
+ebms_rejection_reason.reason.*:
+  type: config_entity
+  label: Article Rejection Reason
+  mapping:
+    id:
+      type: string
+      label: ID
+    label:
+      type: label
+      label: Label
+    sequence:
+      type: integer
+      label: Sequence
+    extra_info:
+      type: string
+      label: Extra info
+    active:
+      type: boolean
+      label: Active
