@@ -103,6 +103,7 @@ class Board extends ContentEntityBase implements ContentEntityInterface {
         'weight' => -3,
         'type' => 'entity_reference_autocomplete',
       ])
+      ->setDescription(t('User responsible for coordinating the literature review.'))
       ->setRevisionable(FALSE)
       ->setTranslatable(FALSE);
 
@@ -117,7 +118,7 @@ class Board extends ContentEntityBase implements ContentEntityInterface {
         'weight' => -2,
         'type' => 'file_generic'
       ])
-      ->setDescription(t('Level-of-evidence guidelines file'))
+      ->setDescription(t('Level-of-evidence guidelines file.'))
       ->setRevisionable(FALSE)
       ->setTranslatable(FALSE);
 

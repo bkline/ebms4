@@ -1,5 +1,5 @@
 entity.ebms_internal_tag.collection:
   title: 'Internal Tag Values'
   parent: ebms_config.admin_config_ebms
-  description: 'Configure internal tag values'
+  description: 'Configure internal tag values.'
   route_name: entity.ebms_internal_tag.collection

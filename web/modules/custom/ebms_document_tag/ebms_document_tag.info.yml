@@ -1,5 +1,5 @@
-name: EBMS Article Tag Values
-description: 'Control values for tagging articles.'
+name: EBMS Document Tags
+description: Valid values for document tags.
 type: module
 package: EBMS
 core_version_requirement: ^9

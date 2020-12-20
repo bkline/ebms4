@@ -1,18 +1,18 @@
 <?php
 
-namespace Drupal\ebms_internal_tag\Entity;
+namespace Drupal\ebms_document_tag\Entity;
 
 use Drupal\Core\Config\Entity\ConfigEntityBase;
 
 /**
- * Defines the EBMS internal tag value entity.
+ * Defines the EBMS document tag configuration entity.
  *
  * @ingroup ebms
  *
  * @ConfigEntityType(
- *   id = "ebms_internal_tag",
- *   label = @Translation("EBMS Internal Tag Value"),
- *   label_collection = @Translation("EBMS Internal Tag Values"),
+ *   id = "ebms_document_tag",
+ *   label = @Translation("EBMS Document Tag"),
+ *   label_collection = @Translation("EBMS Document Tag Values"),
  *   label_singular = @Translation("tag"),
  *   label_plural = @Translation("tags"),
  *   label_count = @PluralTranslation(
@@ -20,10 +20,10 @@ use Drupal\Core\Config\Entity\ConfigEntityBase;
  *     plural = "@count tags",
  *   ),
  *   handlers = {
- *     "list_builder" = "Drupal\ebms_internal_tag\ListBuilder",
+ *     "list_builder" = "Drupal\ebms_document_tag\ListBuilder",
  *     "form" = {
- *       "add" = "Drupal\ebms_internal_tag\Form\TagForm",
- *       "edit" = "Drupal\ebms_internal_tag\Form\TagForm",
+ *       "add" = "Drupal\ebms_document_tag\Form\DocumentTagForm",
+ *       "edit" = "Drupal\ebms_document_tag\Form\DocumentTagForm",
  *       "delete" = "Drupal\Core\Entity\EntityDeleteForm",
  *     },
  *     "route_provider" = {
@@ -39,17 +39,17 @@ use Drupal\Core\Config\Entity\ConfigEntityBase;
  *   config_export = {
  *     "id",
  *     "label",
- *     "active",
+ *     "description",
  *   },
  *   links = {
- *     "add-form" = "/admin/content/ebms_internal_tag/add",
- *     "edit-form" = "/admin/content/ebms_internal_tag/{ebms_internal_tag}/edit",
- *     "delete-form" = "/admin/content/ebms_internal_tag/{ebms_internal_tag}/delete",
- *     "collection" = "/admin/content/ebms_internal_tag",
+ *     "add-form" = "/admin/content/ebms_document_tag/add",
+ *     "edit-form" = "/admin/content/ebms_document_tag/{ebms_document_tag}/edit",
+ *     "delete-form" = "/admin/content/ebms_document_tag/{ebms_document_tag}/delete",
+ *     "collection" = "/admin/content/ebms_document_tag",
  *   },
  * )
  */
-class InternalTag extends ConfigEntityBase {
+class DocumentTag extends ConfigEntityBase {
 
   /**
    * The machine name for the tag value.
@@ -66,10 +66,10 @@ class InternalTag extends ConfigEntityBase {
   public $label;
 
   /**
-   * Whether the value can be used for future internal article tagging.
+   * Longer descriptive help text explaining what the tag means.
    *
-   * @var bool
+   * @var string
    */
-  public $active;
+  public $description;
 
 }

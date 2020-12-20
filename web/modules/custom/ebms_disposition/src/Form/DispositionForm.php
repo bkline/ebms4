@@ -50,7 +50,7 @@ class DispositionForm extends EntityForm {
       '#min' => 1,
       '#required' => TRUE,
       '#title' => $this->t('Sequence'),
-      '#description' => $this->t('Order in the user interface'),
+      '#description' => $this->t('Order in the user interface.'),
       '#default_value' => $this->entity->get('sequence'),
     ];
 

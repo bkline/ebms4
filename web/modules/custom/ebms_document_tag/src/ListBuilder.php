@@ -1,12 +1,12 @@
 <?php
 
-namespace Drupal\ebms_disposition;
+namespace Drupal\ebms_document_tag;
 
 use Drupal\Core\Config\Entity\ConfigEntityListBuilder;
 use Drupal\Core\Entity\EntityInterface;
 
 /**
- * Provides a list controller for the EBMS review disposition values.
+ * Provides a list controller for the EBMS document tag values.
  */
 class ListBuilder extends ConfigEntityListBuilder {
 
@@ -16,7 +16,6 @@ class ListBuilder extends ConfigEntityListBuilder {
   public function buildHeader() {
     $header['id'] = $this->t('Machine ID');
     $header['label'] = $this->t('Label');
-    $header['sequence'] = $this->t('Sequence');
     return $header + parent::buildHeader();
   }
 
@@ -27,7 +26,6 @@ class ListBuilder extends ConfigEntityListBuilder {
     // To debug, use dpm($entity).
     $row['id'] = $entity->get('id');
     $row['label'] = $entity->get('label');
-    $row['sequence'] = $entity->get('sequence');
     return $row + parent::buildRow($entity);
   }
 

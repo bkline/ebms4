@@ -1,5 +1,5 @@
 entity.ebms_article_tag_type.collection:
   title: 'Article Tag Values'
   parent: ebms_config.admin_config_ebms
-  description: 'Configure article tag values'
+  description: 'Configure article tag values.'
   route_name: entity.ebms_article_tag_type.collection

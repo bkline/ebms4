@@ -20,7 +20,7 @@ class PrintStatusForm extends EntityForm {
     $form['id'] = [
       '#type' => 'machine_name',
       '#default_value' => $this->entity->id(),
-      '#description' => $this->t('Machine id for this print status'),
+      '#description' => $this->t('Machine id for this print status.'),
       '#machine_name' => [
         'exists' => '\Drupal\ebms_print_status\Entity\PrintStatus::load',
       ],

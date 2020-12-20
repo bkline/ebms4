@@ -3,7 +3,6 @@
 namespace Drupal\ebms_article_tag_type\Entity;
 
 use Drupal\Core\Config\Entity\ConfigEntityBase;
-use Drupal\Core\Config\Entity\ConfigEntityInterface;
 
 /**
  * Valid values for article tags.

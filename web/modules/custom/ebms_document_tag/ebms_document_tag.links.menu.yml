@@ -1,0 +1,5 @@
+entity.ebms_document_tag.collection:
+  title: 'Document Tag Values'
+  parent: ebms_config.admin_config_ebms
+  description: 'Configure document tag values.'
+  route_name: entity.ebms_document_tag.collection

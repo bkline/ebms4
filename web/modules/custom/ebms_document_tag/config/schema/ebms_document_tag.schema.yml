@@ -1,0 +1,13 @@
+ebms_document_tag.tag.*:
+  type: config_entity
+  label: Document Tag
+  mapping:
+    id:
+      type: string
+      label: ID
+    label:
+      type: label
+      label: Label
+    description:
+      type: string
+      label: Description

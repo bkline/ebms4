@@ -3,7 +3,6 @@
 namespace Drupal\ebms_import_disposition\Entity;
 
 use Drupal\Core\Config\Entity\ConfigEntityBase;
-use Drupal\Core\Config\Entity\ConfigEntityInterface;
 
 /**
  * Defines the EBMS import disposition value entity.
@@ -80,12 +79,5 @@ class ImportDisposition extends ConfigEntityBase {
    * @var bool
    */
   public $active;
-
-  /**
-   * {@inheritdoc}
-   */
-  public static function sort(ConfigEntityInterface $a, ConfigEntityInterface $b) {
-    return strcmp($a->label, $b->label);
-  }
 
 }

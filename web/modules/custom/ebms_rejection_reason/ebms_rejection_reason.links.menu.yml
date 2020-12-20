@@ -1,5 +1,5 @@
 entity.ebms_rejection_reason.collection:
   title: 'Article Rejection Reasons'
   parent: ebms_config.admin_config_ebms
-  description: 'Configure article rejection reasons'
+  description: 'Configure article rejection reasons.'
   route_name: entity.ebms_rejection_reason.collection

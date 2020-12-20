@@ -20,7 +20,7 @@ class RelationshipTypeForm extends EntityForm {
     $form['id'] = [
       '#type' => 'machine_name',
       '#default_value' => $this->entity->id(),
-      '#description' => $this->t('Machine id for this relationship type'),
+      '#description' => $this->t('Machine id for this relationship type.'),
       '#machine_name' => [
         'exists' => '\Drupal\ebms_relationship_type\Entity\RelationshipType::load',
       ],
@@ -47,7 +47,7 @@ class RelationshipTypeForm extends EntityForm {
 
     $form['active'] = [
       '#type' => 'checkbox',
-      '#title' => $this->t('This value is available for future relationship assignments'),
+      '#title' => $this->t('This value is available for future relationship assignments.'),
       '#default_value' => $this->entity->get('active'),
     ];
 

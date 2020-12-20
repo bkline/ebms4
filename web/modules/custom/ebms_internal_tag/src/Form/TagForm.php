@@ -20,7 +20,7 @@ class TagForm extends EntityForm {
     $form['id'] = [
       '#type' => 'machine_name',
       '#default_value' => $this->entity->id(),
-      '#description' => $this->t('Machine id for this tag'),
+      '#description' => $this->t('Machine id for this tag.'),
       '#machine_name' => [
         'exists' => '\Drupal\ebms_internal_tag\Entity\InternalTag::load',
       ],
@@ -39,7 +39,7 @@ class TagForm extends EntityForm {
 
     $form['active'] = [
       '#type' => 'checkbox',
-      '#title' => $this->t('This value is available for future internal tagging of articles'),
+      '#title' => $this->t('This value is available for future internal tagging of articles.'),
       '#default_value' => $this->entity->get('active'),
     ];
 

@@ -14,7 +14,7 @@ use Drupal\Core\Config\Entity\ConfigEntityBase;
  *   label = @Translation("EBMS Print Job Type"),
  *   label_collection = @Translation("EBMS Print Job Type"),
  *   label_singular = @Translation("print job type"),
- *   label_plural = @Translation("print job type"),
+ *   label_plural = @Translation("print job types"),
  *   label_count = @PluralTranslation(
  *     singular = "@count print job type",
  *     plural = "@count print job types",

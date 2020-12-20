@@ -9,7 +9,7 @@ use Drupal\ebms_board\Entity\Board;
 use Drupal\Tests\user\Traits\UserCreationTrait;
 
 /**
- * Test the state type.
+ * Test the board type.
  *
  * @group ebms
  */

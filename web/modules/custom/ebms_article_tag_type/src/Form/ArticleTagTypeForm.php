@@ -22,7 +22,7 @@ class ArticleTagTypeForm extends EntityForm {
     $form['id'] = [
       '#type' => 'machine_name',
       '#default_value' => $this->entity->id(),
-      '#description' => $this->t('Machine id for this tag'),
+      '#description' => $this->t('Machine id for this tag.'),
       '#machine_name' => [
         'exists' => '\Drupal\ebms_article_tag_type\Entity\ArticleTagType::load',
       ],
@@ -48,13 +48,13 @@ class ArticleTagTypeForm extends EntityForm {
 
     $form['topic_required'] = [
       '#type' => 'checkbox',
-      '#title' => $this->t('A topic must be specified for this tag'),
+      '#title' => $this->t('A topic must be specified for this tag.'),
       '#default_value' => $this->entity->get('topic_required'),
     ];
 
     $form['active'] = [
       '#type' => 'checkbox',
-      '#title' => $this->t('This value is currently available for article tagging'),
+      '#title' => $this->t('This value is currently available for article tagging.'),
       '#default_value' => $this->entity->get('active'),
     ];
 

@@ -9,6 +9,7 @@ $DRUSH en ebms_article_state_type
 $DRUSH en ebms_article_tag_type
 $DRUSH en ebms_cycle
 $DRUSH en ebms_disposition
+$DRUSH en ebms_document_tag
 $DRUSH en ebms_import_disposition
 $DRUSH en ebms_internal_tag
 $DRUSH en ebms_print_job_type
@@ -23,6 +24,7 @@ $DRUSH scr --script-path=$DATA states
 $DRUSH scr --script-path=$DATA tags
 $DRUSH scr --script-path=$DATA boards
 $DRUSH scr --script-path=$DATA dispositions
+$DRUSH scr --script-path=$DATA document_tags
 $DRUSH scr --script-path=$DATA import_dispositions
 $DRUSH scr --script-path=$DATA internal_tags
 $DRUSH scr --script-path=$DATA print_job_types

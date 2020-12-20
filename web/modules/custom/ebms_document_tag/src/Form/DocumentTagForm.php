@@ -1,14 +1,14 @@
 <?php
 
-namespace Drupal\ebms_print_job_type\Form;
+namespace Drupal\ebms_document_tag\Form;
 
 use Drupal\Core\Entity\EntityForm;
 use Drupal\Core\Form\FormStateInterface;
 
 /**
- * Print job type value form.
+ * Document tag value form.
  */
-class PrintJobTypeForm extends EntityForm {
+class DocumentTagForm extends EntityForm {
 
   /**
    * {@inheritdoc}
@@ -20,9 +20,9 @@ class PrintJobTypeForm extends EntityForm {
     $form['id'] = [
       '#type' => 'machine_name',
       '#default_value' => $this->entity->id(),
-      '#description' => $this->t('Machine id for this print job type.'),
+      '#description' => $this->t('Machine id for this document tag.'),
       '#machine_name' => [
-        'exists' => '\Drupal\ebms_print_job_type\Entity\PrintJobType::load',
+        'exists' => '\Drupal\ebms_document_tag\Entity\DocumentTag::load',
       ],
       '#disabled' => !$this->entity->isNew(),
       '#required' => TRUE,
@@ -33,16 +33,16 @@ class PrintJobTypeForm extends EntityForm {
       '#title' => $this->t('Label'),
       '#maxlength' => 32,
       '#default_value' => $this->entity->label(),
-      '#description' => $this->t('Display name for this print job type.'),
+      '#description' => $this->t('Display name for this document tag.'),
       '#required' => TRUE,
     ];
 
     $form['description'] = [
       '#type' => 'textfield',
       '#title' => $this->t('Description'),
-      '#maxlength' => 2048,
+      '#maxlength' => 255,
       '#default_value' => $this->entity->description,
-      '#description' => $this->t('Longer, more descriptive explanation of the print job type.'),
+      '#description' => $this->t('Longer, more descriptive explanation of the document tag.'),
     ];
 
     return $form;

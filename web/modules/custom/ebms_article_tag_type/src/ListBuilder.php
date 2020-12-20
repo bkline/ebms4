@@ -14,8 +14,8 @@ class ListBuilder extends ConfigEntityListBuilder {
    * {@inheritdoc}
    */
   public function buildHeader() {
-    $header['label'] = $this->t('Name');
     $header['id'] = $this->t('Machine ID');
+    $header['label'] = $this->t('Name');
     return $header + parent::buildHeader();
   }
 
@@ -24,8 +24,8 @@ class ListBuilder extends ConfigEntityListBuilder {
    */
   public function buildRow(EntityInterface $entity) {
     // To debug, use dpm($entity).
-    $row['label'] = $entity->get('label');
     $row['id'] = $entity->get('id');
+    $row['label'] = $entity->get('label');
     return $row + parent::buildRow($entity);
   }
 

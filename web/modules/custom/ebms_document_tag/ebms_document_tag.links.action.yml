@@ -1,0 +1,5 @@
+entity.ebms_document_tag.add_form:
+  route_name: 'entity.ebms_document_tag.add_form'
+  title: 'Add Document Tag Value'
+  appears_on:
+    - entity.ebms_document_tag.collection

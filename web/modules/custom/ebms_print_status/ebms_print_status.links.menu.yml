@@ -1,5 +1,5 @@
 entity.ebms_print_status.collection:
   title: 'Print Statuses'
   parent: ebms_config.admin_config_ebms
-  description: 'Configure Print Statuses'
+  description: 'Configure print statuses.'
   route_name: entity.ebms_print_status.collection
