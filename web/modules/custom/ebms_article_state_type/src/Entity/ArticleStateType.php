@@ -46,10 +46,10 @@ use Drupal\Core\Config\Entity\ConfigEntityInterface;
  *     "active",
  *   },
  *   links = {
- *     "add-form" = "/admin/content/ebms_article_state_type/add",
- *     "edit-form" = "/admin/content/ebms_article_state_type/{ebms_article_state_type}/edit",
- *     "delete-form" = "/admin/content/ebms_article_state_type/{ebms_article_state_type}/delete",
- *     "collection" = "/admin/content/ebms_article_state_type",
+ *     "add-form" = "/admin/config/ebms/state/add",
+ *     "edit-form" = "/admin/config/ebms/state/{ebms_article_state_type}/edit",
+ *     "delete-form" = "/admin/config/ebms/state/{ebms_article_state_type}/delete",
+ *     "collection" = "/admin/config/ebms/state",
  *   },
  * )
  */

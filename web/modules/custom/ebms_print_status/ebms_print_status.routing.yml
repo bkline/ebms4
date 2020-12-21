@@ -1,5 +1,5 @@
 entity.ebms_print_status.collection:
-  path: '/admin/config/ebms/ebms_print_status'
+  path: '/admin/config/ebms/print_status'
   defaults:
     _entity_list: 'ebms_print_status'
     _title: 'Print Statuses'
@@ -7,7 +7,7 @@ entity.ebms_print_status.collection:
     _permission: 'administer site configuration'
 
 entity.ebms_print_status.add_form:
-  path: '/admin/config/ebms/ebms_print_status/add'
+  path: '/admin/config/ebms/print_status/add'
   defaults:
     _entity_form: 'ebms_print_status.add'
     _title: 'Add Print Status'
@@ -15,7 +15,7 @@ entity.ebms_print_status.add_form:
     _permission: 'administer site configuration'
 
 entity.ebms_print_status.edit_form:
-  path: '/admin/config/ebms/ebms_print_status/{ebms_print_status}'
+  path: '/admin/config/ebms/print_status/{ebms_print_status}'
   defaults:
     _entity_form: 'ebms_print_status.edit'
     _title: 'Edit Print Status'
@@ -23,7 +23,7 @@ entity.ebms_print_status.edit_form:
     _permission: 'administer site configuration'
 
 entity.ebms_print_status.delete_form:
-  path: '/admin/config/ebms/ebms_print_status/{ebms_print_status}/delete'
+  path: '/admin/config/ebms/print_status/{ebms_print_status}/delete'
   defaults:
     _entity_form: 'ebms_print_status.delete'
     _title: 'Delete Print Status'

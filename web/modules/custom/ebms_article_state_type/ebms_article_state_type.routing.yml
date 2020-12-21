@@ -1,5 +1,5 @@
 entity.ebms_article_state_type.collection:
-  path: '/admin/config/ebms/ebms_article_state_type'
+  path: '/admin/config/ebms/state'
   defaults:
     _entity_list: 'ebms_article_state_type'
     _title: 'Article State Types'
@@ -7,7 +7,7 @@ entity.ebms_article_state_type.collection:
     _permission: 'administer site configuration'
 
 entity.ebms_article_state_type.add_form:
-  path: '/admin/config/ebms/ebms_article_state_type/add'
+  path: '/admin/config/ebms/state/add'
   defaults:
     _entity_form: 'ebms_article_state_type.add'
     _title: 'Add Article State Type'
@@ -15,7 +15,7 @@ entity.ebms_article_state_type.add_form:
     _permission: 'administer site configuration'
 
 entity.ebms_article_state_type.edit_form:
-  path: '/admin/config/ebms/ebms_article_state_type/{ebms_article_state_type}'
+  path: '/admin/config/ebms/state/{ebms_article_state_type}'
   defaults:
     _entity_form: 'ebms_article_state_type.edit'
     _title: 'Edit Article State Type'
@@ -23,7 +23,7 @@ entity.ebms_article_state_type.edit_form:
     _permission: 'administer site configuration'
 
 entity.ebms_article_state_type.delete_form:
-  path: '/admin/config/ebms/ebms_article_state_type/{ebms_article_state_type}/delete'
+  path: '/admin/config/ebms/state/{ebms_article_state_type}/delete'
   defaults:
     _entity_form: 'ebms_article_state_type.delete'
     _title: 'Delete Article State Type'

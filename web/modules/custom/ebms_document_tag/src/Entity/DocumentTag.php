@@ -42,10 +42,10 @@ use Drupal\Core\Config\Entity\ConfigEntityBase;
  *     "description",
  *   },
  *   links = {
- *     "add-form" = "/admin/content/ebms_document_tag/add",
- *     "edit-form" = "/admin/content/ebms_document_tag/{ebms_document_tag}/edit",
- *     "delete-form" = "/admin/content/ebms_document_tag/{ebms_document_tag}/delete",
- *     "collection" = "/admin/content/ebms_document_tag",
+ *     "add-form" = "/admin/config/ebms/document_tag/add",
+ *     "edit-form" = "/admin/config/ebms/document_tag/{ebms_document_tag}/edit",
+ *     "delete-form" = "/admin/config/ebms/document_tag/{ebms_document_tag}/delete",
+ *     "collection" = "/admin/config/ebms/document_tag",
  *   },
  * )
  */

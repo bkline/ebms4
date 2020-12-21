@@ -1,5 +1,5 @@
 entity.ebms_disposition.collection:
-  path: '/admin/config/ebms/ebms_disposition'
+  path: '/admin/config/ebms/disposition'
   defaults:
     _entity_list: 'ebms_disposition'
     _title: 'Disposition Values'
@@ -7,7 +7,7 @@ entity.ebms_disposition.collection:
     _permission: 'administer site configuration'
 
 entity.ebms_disposition.add_form:
-  path: '/admin/config/ebms/ebms_disposition/add'
+  path: '/admin/config/ebms/disposition/add'
   defaults:
     _entity_form: 'ebms_disposition.add'
     _title: 'Add Disposition Value'
@@ -15,7 +15,7 @@ entity.ebms_disposition.add_form:
     _permission: 'administer site configuration'
 
 entity.ebms_disposition.edit_form:
-  path: '/admin/config/ebms/ebms_disposition/{ebms_disposition}'
+  path: '/admin/config/ebms/disposition/{ebms_disposition}'
   defaults:
     _entity_form: 'ebms_disposition.edit'
     _title: 'Edit Disposition Value'
@@ -23,7 +23,7 @@ entity.ebms_disposition.edit_form:
     _permission: 'administer site configuration'
 
 entity.ebms_disposition.delete_form:
-  path: '/admin/config/ebms/ebms_disposition/{ebms_disposition}/delete'
+  path: '/admin/config/ebms/disposition/{ebms_disposition}/delete'
   defaults:
     _entity_form: 'ebms_disposition.delete'
     _title: 'Delete Disposition Value'

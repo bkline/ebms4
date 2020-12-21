@@ -43,10 +43,10 @@ use Drupal\Core\Config\Entity\ConfigEntityBase;
  *     "active",
  *   },
  *   links = {
- *     "add-form" = "/admin/content/ebms_import_disposition/add",
- *     "edit-form" = "/admin/content/ebms_import_disposition/{ebms_import_disposition}/edit",
- *     "delete-form" = "/admin/content/ebms_import_disposition/{ebms_import_disposition}/delete",
- *     "collection" = "/admin/content/ebms_import_disposition",
+ *     "add-form" = "/admin/config/ebms/import_disposition/add",
+ *     "edit-form" = "/admin/config/ebms/import_disposition/{ebms_import_disposition}/edit",
+ *     "delete-form" = "/admin/config/ebms/import_disposition/{ebms_import_disposition}/delete",
+ *     "collection" = "/admin/config/ebms/import_disposition",
  *   },
  * )
  */

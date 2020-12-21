@@ -1,5 +1,5 @@
 entity.ebms_document_tag.collection:
-  path: '/admin/config/ebms/ebms_document_tag'
+  path: '/admin/config/ebms/document_tag'
   defaults:
     _entity_list: 'ebms_document_tag'
     _title: 'Document Tag Values'
@@ -7,7 +7,7 @@ entity.ebms_document_tag.collection:
     _permission: 'administer site configuration'
 
 entity.ebms_document_tag.add_form:
-  path: '/admin/config/ebms/ebms_document_tag/add'
+  path: '/admin/config/ebms/document_tag/add'
   defaults:
     _entity_form: 'ebms_document_tag.add'
     _title: 'Add Document Tag Value'
@@ -15,7 +15,7 @@ entity.ebms_document_tag.add_form:
     _permission: 'administer site configuration'
 
 entity.ebms_document_tag.edit_form:
-  path: '/admin/config/ebms/ebms_document_tag/{ebms_document_tag}'
+  path: '/admin/config/ebms/document_tag/{ebms_document_tag}'
   defaults:
     _entity_form: 'ebms_document_tag.edit'
     _title: 'Edit Document Tag Value'
@@ -23,7 +23,7 @@ entity.ebms_document_tag.edit_form:
     _permission: 'administer site configuration'
 
 entity.ebms_document_tag.delete_form:
-  path: '/admin/config/ebms/ebms_document_tag/{ebms_document_tag}/delete'
+  path: '/admin/config/ebms/document_tag/{ebms_document_tag}/delete'
   defaults:
     _entity_form: 'ebms_document_tag.delete'
     _title: 'Delete Document Tag Value'

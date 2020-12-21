@@ -1,5 +1,5 @@
 entity.ebms_rejection_reason.collection:
-  path: '/admin/config/ebms/ebms_rejection_reason'
+  path: '/admin/config/ebms/rejection_reason'
   defaults:
     _entity_list: 'ebms_rejection_reason'
     _title: 'Rejection Reasons'
@@ -7,7 +7,7 @@ entity.ebms_rejection_reason.collection:
     _permission: 'administer site configuration'
 
 entity.ebms_rejection_reason.add_form:
-  path: '/admin/config/ebms/ebms_rejection_reason/add'
+  path: '/admin/config/ebms/rejection_reason/add'
   defaults:
     _entity_form: 'ebms_rejection_reason.add'
     _title: 'Add Rejection Reason'
@@ -15,7 +15,7 @@ entity.ebms_rejection_reason.add_form:
     _permission: 'administer site configuration'
 
 entity.ebms_rejection_reason.edit_form:
-  path: '/admin/config/ebms/ebms_rejection_reason/{ebms_rejection_reason}'
+  path: '/admin/config/ebms/rejection_reason/{ebms_rejection_reason}'
   defaults:
     _entity_form: 'ebms_rejection_reason.edit'
     _title: 'Edit Rejection Reason'
@@ -23,7 +23,7 @@ entity.ebms_rejection_reason.edit_form:
     _permission: 'administer site configuration'
 
 entity.ebms_rejection_reason.delete_form:
-  path: '/admin/config/ebms/ebms_rejection_reason/{ebms_rejection_reason}/delete'
+  path: '/admin/config/ebms/rejection_reason/{ebms_rejection_reason}/delete'
   defaults:
     _entity_form: 'ebms_rejection_reason.delete'
     _title: 'Delete Rejection Reason'

@@ -37,11 +37,11 @@ use Drupal\Core\Field\BaseFieldDefinition;
  *     "published" = "active",
  *   },
  *   links = {
- *     "canonical" = "/admin/structure/board/{ebms_board}",
- *     "add-form" = "/admin/structure/board/add",
- *     "edit-form" = "/admin/structure/board/{ebms_board}/edit",
- *     "delete-form" = "/admin/structure/board/{ebms_board}/delete",
- *     "collection" = "/admin/structure/board",
+ *     "canonical" = "/admin/config/ebms/board/{ebms_board}",
+ *     "add-form" = "/admin/config/ebms/board/add",
+ *     "edit-form" = "/admin/config/ebms/board/{ebms_board}/edit",
+ *     "delete-form" = "/admin/config/ebms/board/{ebms_board}/delete",
+ *     "collection" = "/admin/config/ebms/board",
  *   }
  * )
  */

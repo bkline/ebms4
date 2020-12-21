@@ -44,10 +44,10 @@ use Drupal\Core\Config\Entity\ConfigEntityInterface;
  *     "sequence",
  *   },
  *   links = {
- *     "add-form" = "/admin/content/ebms_disposition/add",
- *     "edit-form" = "/admin/content/ebms_disposition/{ebms_disposition}/edit",
- *     "delete-form" = "/admin/content/ebms_disposition/{ebms_disposition}/delete",
- *     "collection" = "/admin/content/ebms_disposition",
+ *     "add-form" = "/admin/config/ebms/disposition/add",
+ *     "edit-form" = "/admin/config/ebms/disposition/{ebms_disposition}/edit",
+ *     "delete-form" = "/admin/config/ebms/disposition/{ebms_disposition}/delete",
+ *     "collection" = "/admin/config/ebms/disposition",
  *   },
  * )
  */

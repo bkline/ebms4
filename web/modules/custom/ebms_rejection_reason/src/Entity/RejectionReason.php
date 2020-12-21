@@ -44,10 +44,10 @@ use Drupal\Core\Config\Entity\ConfigEntityInterface;
  *     "active",
  *   },
  *   links = {
- *     "add-form" = "/admin/content/ebms_rejection_reason/add",
- *     "edit-form" = "/admin/content/ebms_rejection_reason/{ebms_rejection_reason}/edit",
- *     "delete-form" = "/admin/content/ebms_rejection_reason/{ebms_rejection_reason}/delete",
- *     "collection" = "/admin/content/ebms_rejection_reason",
+ *     "add-form" = "/admin/config/ebms/rejection_reason/add",
+ *     "edit-form" = "/admin/config/ebms/rejection_reason/{ebms_rejection_reason}/edit",
+ *     "delete-form" = "/admin/config/ebms/rejection_reason/{ebms_rejection_reason}/delete",
+ *     "collection" = "/admin/config/ebms/rejection_reason",
  *   },
  * )
  */

@@ -1,5 +1,5 @@
 entity.ebms_import_disposition.collection:
-  path: '/admin/config/ebms/ebms_import_disposition'
+  path: '/admin/config/ebms/import_disposition'
   defaults:
     _entity_list: 'ebms_import_disposition'
     _title: 'Import Disposition Values'
@@ -7,7 +7,7 @@ entity.ebms_import_disposition.collection:
     _permission: 'administer site configuration'
 
 entity.ebms_import_disposition.add_form:
-  path: '/admin/config/ebms/ebms_import_disposition/add'
+  path: '/admin/config/ebms/import_disposition/add'
   defaults:
     _entity_form: 'ebms_import_disposition.add'
     _title: 'Add Import Disposition Value'
@@ -15,7 +15,7 @@ entity.ebms_import_disposition.add_form:
     _permission: 'administer site configuration'
 
 entity.ebms_import_disposition.edit_form:
-  path: '/admin/config/ebms/ebms_import_disposition/{ebms_import_disposition}'
+  path: '/admin/config/ebms/import_disposition/{ebms_import_disposition}'
   defaults:
     _entity_form: 'ebms_import_disposition.edit'
     _title: 'Edit Import Disposition Value'
@@ -23,7 +23,7 @@ entity.ebms_import_disposition.edit_form:
     _permission: 'administer site configuration'
 
 entity.ebms_import_disposition.delete_form:
-  path: '/admin/config/ebms/ebms_import_disposition/{ebms_import_disposition}/delete'
+  path: '/admin/config/ebms/import_disposition/{ebms_import_disposition}/delete'
   defaults:
     _entity_form: 'ebms_import_disposition.delete'
     _title: 'Delete Import Disposition Value'

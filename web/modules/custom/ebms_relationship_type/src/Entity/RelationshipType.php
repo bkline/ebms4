@@ -43,10 +43,10 @@ use Drupal\Core\Config\Entity\ConfigEntityBase;
  *     "active",
  *   },
  *   links = {
- *     "add-form" = "/admin/content/ebms_relationship_type/add",
- *     "edit-form" = "/admin/content/ebms_relationship_type/{ebms_relationship_type}/edit",
- *     "delete-form" = "/admin/content/ebms_relationship_type/{ebms_relationship_type}/delete",
- *     "collection" = "/admin/content/ebms_relationship_type",
+ *     "add-form" = "/admin/config/ebms/relationship_type/add",
+ *     "edit-form" = "/admin/config/ebms/relationship_type/{ebms_relationship_type}/edit",
+ *     "delete-form" = "/admin/config/ebms/relationship_type/{ebms_relationship_type}/delete",
+ *     "collection" = "/admin/config/ebms/relationship_type",
  *   },
  * )
  */

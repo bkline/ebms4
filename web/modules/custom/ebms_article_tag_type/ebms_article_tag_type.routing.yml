@@ -1,5 +1,5 @@
 entity.ebms_article_tag_type.collection:
-  path: '/admin/config/ebms/ebms_article_tag_type'
+  path: '/admin/config/ebms/article_tag'
   defaults:
     _entity_list: 'ebms_article_tag_type'
     _title: 'Article Tag Values'
@@ -7,7 +7,7 @@ entity.ebms_article_tag_type.collection:
     _permission: 'administer site configuration'
 
 entity.ebms_article_tag_type.add_form:
-  path: '/admin/config/ebms/ebms_article_tag_type/add'
+  path: '/admin/config/ebms/article_tag/add'
   defaults:
     _entity_form: 'ebms_article_tag_type.add'
     _title: 'Add Article Tag Value'
@@ -15,7 +15,7 @@ entity.ebms_article_tag_type.add_form:
     _permission: 'administer site configuration'
 
 entity.ebms_article_tag_type.edit_form:
-  path: '/admin/config/ebms/ebms_article_tag_type/{ebms_article_tag_type}'
+  path: '/admin/config/ebms/article_tag/{ebms_article_tag_type}'
   defaults:
     _entity_form: 'ebms_article_tag_type.edit'
     _title: 'Edit Article Tag Value'
@@ -23,7 +23,7 @@ entity.ebms_article_tag_type.edit_form:
     _permission: 'administer site configuration'
 
 entity.ebms_article_tag_type.delete_form:
-  path: '/admin/config/ebms/ebms_article_tag_type/{ebms_article_tag_type}/delete'
+  path: '/admin/config/ebms/article_tag/{ebms_article_tag_type}/delete'
   defaults:
     _entity_form: 'ebms_article_tag_type.delete'
     _title: 'Delete Article Tag Value'
