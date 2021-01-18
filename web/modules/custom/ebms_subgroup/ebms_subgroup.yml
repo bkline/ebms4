@@ -1,0 +1,5 @@
+entity.ebms_subgroup.add_form:
+  route_name: entity.ebms_subgroup.add_form
+  title: 'Add Subgroup'
+  appears_on:
+    - entity.ebms_subgroup.collection

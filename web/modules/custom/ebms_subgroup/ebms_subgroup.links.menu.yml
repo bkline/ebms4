@@ -1,0 +1,6 @@
+entity.ebms_subgroup.collection:
+  title: 'Subgroups'
+  route_name: entity.ebms_subgroup.collection
+  description: 'Configure Subgroups'
+  parent: ebms_config.admin_config_ebms
+  weight: 100

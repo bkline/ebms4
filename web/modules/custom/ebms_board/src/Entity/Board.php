@@ -143,4 +143,11 @@ class Board extends ContentEntityBase implements ContentEntityInterface {
     return $fields;
   }
 
+  /**
+   * {@inheritdoc}
+   */
+  public static function sort(ContentEntityInterface $a, ContentEntityInterface $b) {
+    return strcmp($a->getName(), $b->getName());
+  }
+
 }

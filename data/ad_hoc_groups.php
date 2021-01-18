@@ -7,4 +7,4 @@ foreach ($groups as $values) {
   $group->save();
 }
 $n = count($groups);
-echo "loaded $n groups\n";
+echo "loaded $n ad-hoc groups\n";

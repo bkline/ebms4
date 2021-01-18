@@ -1,0 +1,5 @@
+name: EBMS Subgroup
+description: EBMS board subgroups.
+type: module
+package: EBMS
+core_version_requirement: ^9
