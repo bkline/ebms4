@@ -1,0 +1,5 @@
+entity.ebms_ad_hoc_group.add_form:
+  route_name: entity.ebms_ad_hoc_group.add_form
+  title: 'Add Ad-Hoc Group'
+  appears_on:
+    - entity.ebms_ad_hoc_group.collection

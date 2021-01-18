@@ -1,0 +1,6 @@
+entity.ebms_ad_hoc_group.collection:
+  title: 'Ad-Hoc Groups'
+  route_name: entity.ebms_ad_hoc_group.collection
+  description: 'Configure Ad-Hoc Groups'
+  parent: ebms_config.admin_config_ebms
+  weight: 100

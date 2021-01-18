@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Editors-in-Chief", 
+    "id": 1, 
+    "created_by": 25, 
+    "boards": []
+  }, 
+  {
+    "name": "Skin Cancer Working Group", 
+    "id": 3, 
+    "created_by": 3, 
+    "boards": [
+      2
+    ]
+  }, 
+  {
+    "name": "Colorectal Cancer Working Group", 
+    "id": 4, 
+    "created_by": 3, 
+    "boards": [
+      2
+    ]
+  }, 
+  {
+    "name": "Psychosocial Working Group", 
+    "id": 5, 
+    "created_by": 3, 
+    "boards": [
+      2
+    ]
+  }, 
+  {
+    "name": "Kidney Cancer Working Group", 
+    "id": 6, 
+    "created_by": 3, 
+    "boards": [
+      2
+    ]
+  }, 
+  {
+    "name": "Endocrine Working Group", 
+    "id": 7, 
+    "created_by": 3, 
+    "boards": [
+      2
+    ]
+  }, 
+  {
+    "name": "Prostate Cancer Working Group", 
+    "id": 8, 
+    "created_by": 3, 
+    "boards": [
+      2
+    ]
+  }, 
+  {
+    "name": "Clinical Sequencing WG", 
+    "id": 9, 
+    "created_by": 3, 
+    "boards": [
+      2
+    ]
+  }, 
+  {
+    "name": "Hematologic Cancers Working Group", 
+    "id": 10, 
+    "created_by": 3, 
+    "boards": [
+      2
+    ]
+  }
+]

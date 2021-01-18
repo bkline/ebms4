@@ -1,17 +1,17 @@
 <?php
 
-namespace Drupal\ebms_board\Form;
+namespace Drupal\ebms_ad_hoc_group\Form;
 
 use Drupal\Core\Entity\ContentEntityForm;
 use Drupal\Core\Form\FormStateInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
- * Form controller for PDQ Board edit forms.
+ * Form controller for ad-hoc groups.
  *
  * @ingroup ebms
  */
-class BoardForm extends ContentEntityForm {
+class AdHocGroupForm extends ContentEntityForm {
 
   /**
    * The current user account.
@@ -36,10 +36,10 @@ class BoardForm extends ContentEntityForm {
   public function buildForm(array $form, FormStateInterface $form_state) {
     $form = parent::buildForm($form, $form_state);
     if ($this->entity->isNew()) {
-      $form['#title'] = $this->t('Add PDQ Board');
+      $form['#title'] = $this->t('Add Ad-Hoc Group');
     }
     else {
-      $form['#title'] = $this->t('Edit PDQ Board');
+      $form['#title'] = $this->t('Edit Ad-Hoc Group');
     }
     return $form;
   }
@@ -54,17 +54,17 @@ class BoardForm extends ContentEntityForm {
 
     switch ($status) {
       case SAVED_NEW:
-        $this->messenger()->addMessage($this->t('Created the %label PDQ Board.', [
+        $this->messenger()->addMessage($this->t('Created the %label group.', [
           '%label' => $entity->label(),
         ]));
         break;
 
       default:
-        $this->messenger()->addMessage($this->t('Saved the %label PDQ Board.', [
+        $this->messenger()->addMessage($this->t('Saved the %label group.', [
           '%label' => $entity->label(),
         ]));
     }
-    $form_state->setRedirect('entity.ebms_board.canonical', ['ebms_board' => $entity->id()]);
+    $form_state->setRedirect('entity.ebms_ad_hoc_group.canonical', ['ebms_ad_hoc_group' => $entity->id()]);
   }
 
 }

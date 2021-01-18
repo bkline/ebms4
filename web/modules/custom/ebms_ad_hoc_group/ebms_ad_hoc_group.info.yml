@@ -1,0 +1,5 @@
+name: EBMS Ad-Hoc Group
+description: EBMS board member groups created on the fly (e.g., for meeting attendees).
+type: module
+package: EBMS
+core_version_requirement: ^9

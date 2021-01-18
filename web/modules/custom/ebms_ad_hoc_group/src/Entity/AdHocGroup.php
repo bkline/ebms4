@@ -1,51 +1,51 @@
 <?php
 
-namespace Drupal\ebms_board\Entity;
+namespace Drupal\ebms_ad_hoc_group\Entity;
 
 use Drupal\Core\Entity\ContentEntityBase;
 use Drupal\Core\Entity\ContentEntityInterface;
 use Drupal\Core\Entity\EntityTypeInterface;
 use Drupal\Core\Field\BaseFieldDefinition;
+use Drupal\Core\Field\FieldStorageDefinitionInterface;
 
 /**
- * Defines the PDQ Board entity.
+ * Defines the ad-hoc group entity.
  *
  * @ingroup ebms
  *
  * @ContentEntityType(
- *   id = "ebms_board",
- *   label = @Translation("PDQ Board"),
+ *   id = "ebms_ad_hoc_group",
+ *   label = @Translation("Ad-Hoc Group"),
  *   handlers = {
  *     "view_builder" = "Drupal\Core\Entity\EntityViewBuilder",
- *     "list_builder" = "Drupal\ebms_board\BoardListBuilder",
+ *     "list_builder" = "Drupal\ebms_ad_hoc_group\ListBuilder",
  *
  *     "form" = {
- *       "default" = "Drupal\ebms_board\Form\BoardForm",
- *       "add" = "Drupal\ebms_board\Form\BoardForm",
- *       "edit" = "Drupal\ebms_board\Form\BoardForm",
+ *       "default" = "Drupal\ebms_ad_hoc_group\Form\AdHocGroupForm",
+ *       "add" = "Drupal\ebms_ad_hoc_group\Form\AdHocGroupForm",
+ *       "edit" = "Drupal\ebms_ad_hoc_group\Form\AdHocGroupForm",
  *       "delete" = "Drupal\Core\Entity\ContentEntityDeleteForm",
  *     },
  *     "route_provider" = {
  *       "html" = "Drupal\Core\Entity\Routing\AdminHtmlRouteProvider",
  *     }
  *   },
- *   base_table = "ebms_board",
+ *   base_table = "ebms_ad_hoc_group",
  *   admin_permission = "administer site configuration",
  *   entity_keys = {
  *     "id" = "id",
  *     "label" = "name",
- *     "published" = "active",
  *   },
  *   links = {
- *     "canonical" = "/admin/config/ebms/board/{ebms_board}",
- *     "add-form" = "/admin/config/ebms/board/add",
- *     "edit-form" = "/admin/config/ebms/board/{ebms_board}/edit",
- *     "delete-form" = "/admin/config/ebms/board/{ebms_board}/delete",
- *     "collection" = "/admin/config/ebms/board",
+ *     "canonical" = "/admin/config/ebms/ad_hoc_group/{ebms_ad_hoc_group}",
+ *     "add-form" = "/admin/config/ebms/add_hoc_group/add",
+ *     "edit-form" = "/admin/config/ebms/add_hoc_group/{ebms_ad_hoc_group}/edit",
+ *     "delete-form" = "/admin/config/ebms/add_hoc_group/{ebms_ad_hoc_group}/delete",
+ *     "collection" = "/admin/config/ebms/add_hoc_group",
  *   }
  * )
  */
-class Board extends ContentEntityBase implements ContentEntityInterface {
+class AdHocGroup extends ContentEntityBase implements ContentEntityInterface {
 
   /**
    * {@inheritdoc}
@@ -73,11 +73,11 @@ class Board extends ContentEntityBase implements ContentEntityInterface {
 
     $fields['name'] = BaseFieldDefinition::create('string')
       ->setLabel(t('Name'))
-      ->setDescription(t('The name of the PDQ Board.'))
+      ->setDescription(t('The name of the ad-hoc group.'))
       ->setRevisionable(FALSE)
       ->setTranslatable(FALSE)
       ->setSettings([
-        'max_length' => 128,
+        'max_length' => 255,
         'text_processing' => 0,
       ])
       ->setDefaultValue('')
@@ -92,8 +92,8 @@ class Board extends ContentEntityBase implements ContentEntityInterface {
       ])
       ->setRequired(TRUE);
 
-    $fields['manager'] = BaseFieldDefinition::create('entity_reference')
-      ->setLabel(t('Board manager'))
+    $fields['created_by'] = BaseFieldDefinition::create('entity_reference')
+      ->setLabel(t('Created By'))
       ->setSetting('target_type', 'user')
       ->setDisplayOptions('view', [
         'weight' => -3,
@@ -103,42 +103,25 @@ class Board extends ContentEntityBase implements ContentEntityInterface {
         'weight' => -3,
         'type' => 'entity_reference_autocomplete',
       ])
-      ->setDescription(t('User responsible for coordinating the literature review.'))
+      ->setDescription(t('User who created this group.'))
       ->setRevisionable(FALSE)
       ->setTranslatable(FALSE);
 
-    $fields['loe_guidelines'] = BaseFieldDefinition::create('file')
-      ->setLabel(t('LOE guidelines'))
-      ->setSetting('file_extensions', 'doc docx pdf')
+    $fields['boards'] = BaseFieldDefinition::create('entity_reference')
+      ->setLabel(t('PDQ® Editorial Boards'))
+      ->setSetting('target_type', 'ebms_board')
+      ->setCardinality(FieldStorageDefinitionInterface::CARDINALITY_UNLIMITED)
       ->setDisplayOptions('view', [
         'weight' => -2,
         'label' => 'above',
       ])
       ->setDisplayOptions('form', [
         'weight' => -2,
-        'type' => 'file_generic',
+        'type' => 'entity_reference_autocomplete',
       ])
-      ->setDescription(t('Level-of-evidence guidelines file.'))
+      ->setDescription(t('Board(s) associated with this group.'))
       ->setRevisionable(FALSE)
       ->setTranslatable(FALSE);
-
-    $fields['auto_imports'] = BaseFieldDefinition::create('boolean')
-      ->setLabel(t('Automatic imports'))
-      ->setDescription(t('Should the import software look for related articles?'))
-      ->setDefaultValue(FALSE)
-      ->setDisplayOptions('form', [
-        'type' => 'boolean_checkbox',
-        'weight' => -1,
-      ]);
-
-    $fields['active'] = BaseFieldDefinition::create('boolean')
-      ->setLabel(t('Active'))
-      ->setDescription(t('A flag indicating whether the PDQ Board is active.'))
-      ->setDefaultValue(TRUE)
-      ->setDisplayOptions('form', [
-        'type' => 'boolean_checkbox',
-        'weight' => 0,
-      ]);
 
     return $fields;
   }

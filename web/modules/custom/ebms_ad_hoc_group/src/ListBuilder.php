@@ -1,23 +1,23 @@
 <?php
 
-namespace Drupal\ebms_board;
+namespace Drupal\ebms_ad_hoc_group;
 
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Entity\EntityListBuilder;
 use Drupal\Core\Link;
 
 /**
- * Defines a class to build a listing of PDQ Board entities.
+ * Defines a class to build a listing of Ad-Hoc Group entities.
  *
  * @ingroup ebms
  */
-class BoardListBuilder extends EntityListBuilder {
+class ListBuilder extends EntityListBuilder {
 
   /**
    * {@inheritdoc}
    */
   public function buildHeader() {
-    $header['id'] = $this->t('PDQ Board ID');
+    $header['id'] = $this->t('Group ID');
     $header['name'] = $this->t('Name');
     return $header + parent::buildHeader();
   }
@@ -27,19 +27,19 @@ class BoardListBuilder extends EntityListBuilder {
    */
   public function getTitle() {
     // Broken, I think. https://www.drupal.org/project/drupal/issues/2892334.
-    return $this->t('PDQ Boards');
+    return $this->t('Ad-Hoc Groups');
   }
 
   /**
    * {@inheritdoc}
    */
   public function buildRow(EntityInterface $entity) {
-    /* @var \Drupal\ebms_board\Entity\Board $entity */
+    /* @var \Drupal\ebms_ad_hoc_group\Entity\AdHocGroup $entity */
     $row['id'] = $entity->id();
     $row['name'] = Link::createFromRoute(
       $entity->label(),
-      'entity.ebms_board.edit_form',
-      ['ebms_board' => $entity->id()]
+      'entity.ebms_ad_hoc_group.edit_form',
+      ['ebms_ad_hoc_group' => $entity->id()]
     );
     return $row + parent::buildRow($entity);
   }
