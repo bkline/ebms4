@@ -4,7 +4,6 @@ namespace Drupal\Tests\ebms_board\Kernel;
 
 use Drupal\Core\File\FileSystemInterface;
 use Drupal\KernelTests\KernelTestBase;
-use Drupal\Tests\SchemaCheckTestTrait;
 use Drupal\ebms_board\Entity\Board;
 use Drupal\Tests\user\Traits\UserCreationTrait;
 
