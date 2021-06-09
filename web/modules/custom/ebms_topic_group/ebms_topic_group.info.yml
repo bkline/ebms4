@@ -1,0 +1,5 @@
+name: EBMS Topic Group
+description: Optional group for EBMS topics.
+type: module
+package: EBMS
+core_version_requirement: ^9

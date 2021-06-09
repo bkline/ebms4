@@ -1,0 +1,97 @@
+[
+  {
+    "id": "breast_cancer",
+    "label": "Breast Cancer",
+    "active": true
+  },
+  {
+    "id": "digestive_gastrointestinal_cancers",
+    "label": "Digestive/Gastrointestinal Cancers",
+    "active": true
+  },
+  {
+    "id": "endocrine_gland_cancers",
+    "label": "Endocrine Gland Cancers",
+    "active": true
+  },
+  {
+    "id": "genitourinary_cancers",
+    "label": "Genitourinary Cancers",
+    "active": true
+  },
+  {
+    "id": "gynecologic_cancers",
+    "label": "Gynecologic Cancers",
+    "active": true
+  },
+  {
+    "id": "head_and_neck_cancers",
+    "label": "Head and Neck Cancers",
+    "active": true
+  },
+  {
+    "id": "thorax_respiratory_cancers",
+    "label": "Thorax/Respiratory Cancers",
+    "active": true
+  },
+  {
+    "id": "hematologic_and_lymph_cancers",
+    "label": "Hematologic and Lymph Cancers",
+    "active": true
+  },
+  {
+    "id": "aids_related_cancers",
+    "label": "AIDS-Related Cancers",
+    "active": true
+  },
+  {
+    "id": "skin_cancers",
+    "label": "Skin Cancers",
+    "active": true
+  },
+  {
+    "id": "neurologic_cancers",
+    "label": "Neurologic Cancers",
+    "active": true
+  },
+  {
+    "id": "eye_cancer",
+    "label": "Eye Cancer",
+    "active": true
+  },
+  {
+    "id": "musculoskeletal_cancer",
+    "label": "Musculoskeletal Cancer",
+    "active": true
+  },
+  {
+    "id": "other",
+    "label": "Other",
+    "active": true
+  },
+  {
+    "id": "financial_toxicity_and_cancer_care",
+    "label": "Financial Toxicity and Cancer Care",
+    "active": true
+  },
+  {
+    "id": "topics_in_cam_therapies",
+    "label": "Topics In CAM Therapies",
+    "active": true
+  },
+  {
+    "id": "carcinoma_of_unknown_primary",
+    "label": "Carcinoma of Unknown Primary",
+    "active": true
+  },
+  {
+    "id": "general_adult_treatment",
+    "label": "General Adult Treatment",
+    "active": true
+  },
+  {
+    "id": "neck_and_head_cancers",
+    "label": "Neck and Head Cancers",
+    "active": true
+  }
+]

@@ -1,0 +1,31 @@
+entity.ebms_topic_group.collection:
+  path: '/admin/config/ebms/topic_group'
+  defaults:
+    _entity_list: 'ebms_topic_group'
+    _title: 'Topic Group Values'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.ebms_topic_group.add_form:
+  path: '/admin/config/ebms/topic_group/add'
+  defaults:
+    _entity_form: 'ebms_topic_group.add'
+    _title: 'Add Topic Group Value'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.ebms_topic_group.edit_form:
+  path: '/admin/config/ebms/topic_group/{ebms_topic_group}'
+  defaults:
+    _entity_form: 'ebms_topic_group.edit'
+    _title: 'Edit Topic Group Value'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.ebms_topic_group.delete_form:
+  path: '/admin/config/ebms/topic_group/{ebms_topic_group}/delete'
+  defaults:
+    _entity_form: 'ebms_topic_group.delete'
+    _title: 'Delete Topic Group Value'
+  requirements:
+    _permission: 'administer site configuration'

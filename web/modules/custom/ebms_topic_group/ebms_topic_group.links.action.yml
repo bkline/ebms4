@@ -1,0 +1,5 @@
+entity.ebms_topic_group.add_form:
+  route_name: 'entity.ebms_topic_group.add_form'
+  title: 'Add EBMS Topic Group Value'
+  appears_on:
+    - entity.ebms_topic_group.collection
