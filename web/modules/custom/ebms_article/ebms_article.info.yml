@@ -1,0 +1,5 @@
+name: EBMS Article
+description: Candidate Article for Literature Surveillance Review.
+type: module
+package: EBMS
+core_version_requirement: ^9

@@ -1,0 +1,6 @@
+entity.ebms_article.collection:
+  title: 'EBMS Articles'
+  route_name: entity.ebms_article.collection
+  description: 'EBMS article list'
+  parent: ebms_config.admin_config_ebms
+  weight: 100
